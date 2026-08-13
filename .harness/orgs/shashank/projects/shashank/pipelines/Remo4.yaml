@@ -1,0 +1,22 @@
+pipeline:
+  name: Remo4
+  identifier: Remo4
+  projectIdentifier: shashank
+  orgIdentifier: shashank
+  tags: {}
+  stages:
+    - stage:
+        name: stage
+        identifier: stage
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: 10m
+        tags: {}
