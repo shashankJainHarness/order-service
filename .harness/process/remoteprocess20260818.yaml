@@ -17,3 +17,13 @@ process:
             name: ActRemote2026-08-18
             description: ""
             depends-on: []
+          - activity: ActRemoe220260818
+            id: ActRemoe220260818
+            name: ActRemoe2-2026-08-18
+            description: ""
+            depends-on: []
+          - activity: ActRemote320260818
+            id: ActRemote320260818
+            name: ActRemote3-2026-08-18
+            description: ""
+            depends-on: []
