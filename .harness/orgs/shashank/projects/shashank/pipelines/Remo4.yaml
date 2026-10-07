@@ -20,3 +20,9 @@ pipeline:
                   spec:
                     duration: 11m
         tags: {}
+  variables:
+    - name: var1
+      type: String
+      description: ""
+      required: false
+      value: <+input>
