@@ -1,0 +1,11 @@
+inputSet:
+  name: adssdas
+  identifier: adssdas
+  orgIdentifier: shashank
+  projectIdentifier: shashank
+  pipeline:
+    identifier: Remo4
+    variables:
+      - name: var1
+        type: String
+        value: shashank
