@@ -18,3 +18,20 @@ process:
             description: ""
             depends-on: []
             gitBranch: main
+          - activity: OrderSvcNonDefaultBranch
+            id: OrderSvcNonDefaultBranch
+            name: OrderSvcNonDefaultBranch
+            description: ""
+            depends-on: []
+            gitBranch: main-patch-pipe-is-test
+          - activity: OrderSvcMainBranch
+            id: OrderSvcMainBranch
+            name: OrderSvcMainBranch
+            description: ""
+            depends-on: []
+          - activity: PipelineRemoteAct
+            id: PipelineRemoteAct
+            name: PipelineRemoteAct
+            description: ""
+            depends-on: []
+            gitBranch: main-patch-2
