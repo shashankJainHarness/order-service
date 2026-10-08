@@ -31,7 +31,12 @@ process:
             depends-on: []
           - activity: PipelineRemoteAct
             id: PipelineRemoteAct
-            name: PipelineRemoteAct
+            name: ActDiffRepoDiffBranch
             description: ""
             depends-on: []
             gitBranch: main-patch-2
+          - activity: TestOpaWarn
+            id: InlineAct
+            name: InlineAct
+            description: ""
+            depends-on: []
