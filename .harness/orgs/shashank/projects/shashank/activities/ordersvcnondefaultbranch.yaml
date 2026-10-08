@@ -1,0 +1,19 @@
+activity:
+  description: ""
+  id: OrderSvcNonDefaultBranch
+  inputs:
+    var1:
+      description: ""
+      type: string
+      default: shashank
+      optional: false
+      readOnly: false
+      value: shashank
+  name: OrderSvcNonDefaultBranch
+  outputs:
+    out1:
+      type: string
+      value: shashank
+      description: ""
+  manual:
+    tasks: []
