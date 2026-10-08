@@ -40,3 +40,8 @@ process:
             name: InlineAct
             description: ""
             depends-on: []
+          - activity: UISvcManualMainBranch
+            id: UISvcManualMainBranch
+            name: UISvcManualMainBranch
+            description: ""
+            depends-on: []
